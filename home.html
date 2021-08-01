@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Green Way - Best Agriculture Website</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/combine.css">
+  <link rel="stylesheet" href="css/blogpost.css">
+  <link rel="stylesheet" href="css/mobile.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="menu-icon">
+      <span class="fas fa-bars"></span>
+    </div>
+    <div class="logo">
+      <a href="home.html">
+        <span><img src="img/logo.png" width="150px" alt=""></span></a>
+    </div>
+    <div class="nav-items">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="seedcultivation.html">Seed Cultivation</a></li>
+      <li><a href="vegetablecultivation.html">Vegetable Cultivation</a></li>
+      <li><a href="fruitcultivation.html">Fruit Cultivation</a></li>
+      <li><a href="faq.html">FAQ's</a></li>
+    </div>
+
+  </nav>
+
+
+  <div class="main-part about-width m-auto">
+    <div class="bodys-left">
+      <h1>About Us</h1>
+      <p>Green Way provides information and advice from experts agricultural information .The portal aims to provide
+        farmers and entrepreneurs with this platform and provide assistance in a variety of ways. And also, we provide a
+        chatbot (green way chatbot) which helps in answering answering your queries. we are here to help the farmers by
+        providing different types of vegetable crops , fruit crops , commercial crops and seed cultivation. We will
+        continue to update these web application in various useful ways in the future.
+      </p>
+    </div>
+    <div class="bodys-right">
+      <img src="img/logo.png" alt="Logo" width="150px">
+    </div>
+  </div>
+
+
+
+  <div class="main-width m-auto">
+    <hr>
+  </div>
+  <div class="articles main-width m-auto my-2">
+    <h2>Featured Articles</h2>
+    <div class="article ">
+      <a href="Seed Cultivation/paddy.html">
+        <img src="img/paddy/paddy crop  image 1.jpg" alt="Paddy" width="250px" class="article-img">
+        <div class="all-article-body">
+          <h3>Paddy</h3>
+          <p>Rice is a cereal grain has a place with the grass group of Graminae and local to the deltas of the
+            incomparable
+            Asian streams, the Ganges, the Chang. Paddy plant has a stringy root with the plant developing upto 6 feet
+            tall.
+            It has a round jointed stem with leaves being long and pointed.</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="article ">
+    <a href="Seed Cultivation/wheat.html">
+      <img src="img/wheat/wheat  crop image 2.jpg" alt="Wheat" width="250px" class="article-img">
+      <div class="all-article-body">
+        <h3>Wheat</h3>
+        <p>Wheat is one of the world’s most commonly consumed cereal grains. It comes from a type of grass (Triticum)
+          that
+          is grown in countless varieties worldwide. Bread wheat, or common wheat, is the primary species. Several other
+          closely related species include durum, spelt, emmer, einkorn, and Khorasan wheat.</p>
+    </a>
+  </div>
+  </div>
+
+  <div class="article ">
+    <a href="Fruit Cultivation/mango.html">
+      <img src="img/mango/mango (1).jpeg" alt="Mango" width="250px" class="article-img">
+      <div class="all-article-body">
+        <h3>Mango</h3>
+        <p>Mango Farming is that the leading fruit crop farming of Bharat and thought of to be the king of fruits.
+          Besides the delicious taste, glorious flavor and engaging fragrance. The
+          tree is hardy in nature and needs relatively low maintenance costs.</p>
+    </a>
+  </div>
+  </div>
+
+  <div class="article ">
+    <a href="Fruit Cultivation/dwarfbanana.html">
+      <img src="img/dwarfbanana/dwarfbanana (3).jpeg" alt="Dwraf Banana" width="250px" class="article-img">
+      <div class="all-article-body">
+        <h3>Dwarf Banana</h3>
+        <p>The Dwarf Banana tree is simple to worry for however will need ample humidity. it's the oldest and
+          commonest fruit best-known to mankind. It's one among the necessary fruit trees and constitutes the
+          second-largest fruit business in India. </p>
+    </a>
+  </div>
+  </div>
+
+  <div class="article ">
+    <a href="Vegetable Cultivation/cabbage.html">
+      <img src="img/cabbage/cabbage (1).jpeg" alt="Cabbage" width="250px" class="article-img">
+      <div class="all-article-body">
+        <h3>Cabbage</h3>
+        <p>The cabbage may be a well-liked vascular plant of the species Brassica Family ANd is employed as a
+          ivy-covered inexperienced vegetable. the sole a part of the plant that's ordinarily eaten up is that the
+          leafy head; additional precisely, the spherical cluster of immature leaves, excluding the part unpleated
+          outer leaves.</p>
+    </a>
+  </div>
+  </div>
+
+  <div class="article ">
+    <a href="Vegetable Cultivation/drumsticks.html">
+      <img src="img/drumstick/drumstick (5).jpeg" alt="Drumstick" width="250px" class="article-img">
+      <div class="all-article-body">
+        <h3>Drumstick</h3>
+        <p>Drumstick is one among the notable vegetable crops in India. Drumstick is that the most generally
+          cultivated species of the genus Moringa comes from the Moringaceae family. although the origin of
+          drumsticks is India</p>
+    </a>
+  </div>
+  </div>
+
+  <script src="js/chatbot.js"></script>
+
+  <script>
+    const menuBtn = document.querySelector(".menu-icon span");
+    const searchBtn = document.querySelector(".search-icon");
+    const cancelBtn = document.querySelector(".cancel-icon");
+    const items = document.querySelector(".nav-items");
+    const form = document.querySelector("form");
+    menuBtn.onclick = () => {
+      items.classList.add("active");
+      menuBtn.classList.add("hide");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+    cancelBtn.onclick = () => {
+      items.classList.remove("active");
+      menuBtn.classList.remove("hide");
+      searchBtn.classList.remove("hide");
+      cancelBtn.classList.remove("show");
+      form.classList.remove("active");
+      cancelBtn.style.color = "#ff3d00";
+    }
+    searchBtn.onclick = () => {
+      form.classList.add("active");
+      searchBtn.classList.add("hide");
+      cancelBtn.classList.add("show");
+    }
+  </script>
+</body>
+
+</html>
