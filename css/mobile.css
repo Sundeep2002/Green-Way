@@ -1,0 +1,17 @@
+@media screen and (max-width:1025px){
+    .bodys-right{
+        display: none;
+    }
+
+.article{
+    flex-direction: column;
+    }
+
+.article-img  {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+      }
+}
+
